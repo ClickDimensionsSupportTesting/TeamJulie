@@ -45,26 +45,17 @@
 <div pageID="k6j8rjw0eecn3bzb3ujapq"></div>
     
 
- <script type="text/javascript"> 
-  var cdJsHost = (("https:" == document.location.protocol) ? "https://" : "http://"); 
-  document.write(unescape("%3Cscript src='" + cdJsHost + "analytics.clickdimensions.com/ts.js' type='text/javascript'%3E%3C/script%3E")); 
+<script type="text/javascript" src="https://analytics.clickdimensions.com/ts.js" > </script> 
+
+<script type="text/javascript"> 
+  var cdAnalytics = new clickdimensions.Analytics('analytics.clickdimensions.com'); 
+  cdAnalytics.setAccountKey('aK7L504BWUEqa87oHBwPlw'); 
+  cdAnalytics.setDomain('github.io'); 
+  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
+  cdAnalytics.trackPage(); 
 </script> 
 
     
-<script type="text/javascript">
-  var cdScore=15;
-</script>
 
-<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/ts.js" > </script> 
-<script type="text/javascript" src="https://analytics-eu.clickdimensions.com/optout.js" > </script> 
-
-<script type="text/javascript"> 
-  var cdAnalytics = new clickdimensions.Analytics('analytics-eu.clickdimensions.com'); 
-  cdAnalytics.setAccountKey('acP8vbk7mnUmxgTBl7vCkE'); 
-  cdAnalytics.setDomain('clickdimensionssupporttesting.github.io'); 
-  cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore)); 
-  var optOutHostId = 'clickdimensionssupporttesting.github.io_EkCv7lBTgxmUnm7kbv8Pca'; 
-  cdAnalytics.optOutTracking(true); 
-</script> 
 </body>
         
